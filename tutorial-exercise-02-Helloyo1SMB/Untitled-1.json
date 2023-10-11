@@ -1,0 +1,169 @@
+{
+    "$gpb": "badoo.bma.BadooMessage",
+    "message_type": 246,
+    "version": 1,
+    "message_id": 40,
+    "object_type": 135,
+    "body": [
+        {
+            "$gpb": "badoo.bma.MessageBody",
+            "client_user_list": {
+                "$gpb": "badoo.bma.ClientUserList",
+                "section": [
+                    {
+                        "$gpb": "badoo.bma.ListSection",
+                        "section_id": "1",
+                        "name": "Match Queue",
+                        "total_count": 0,
+                        "last_block": true,
+                        "allowed_actions": [
+                            1,
+                            2
+                        ],
+                        "section_type": 2,
+                        "promo_banners": [
+                            {
+                                "$gpb": "badoo.bma.PromoBlock",
+                                "mssg": "Open your Beeline to see who’s already liked you",
+                                "pictures": [
+                                    {
+                                        "$gpb": "badoo.bma.ApplicationFeaturePicture",
+                                        "display_images": "",
+                                        "badge_type": 2,
+                                        "badge_text": "3"
+                                    },
+                                    {
+                                        "$gpb": "badoo.bma.ApplicationFeaturePicture",
+                                        "display_images": "//us1.bumbcdn.com/p536/hidden?euri=dkB9pYNsoavpmsjVSX7v5wBgbkiYxnewWTP0eyk1dZ96gsE3pJ5qhVlHnefAFsbKCbHpl2T9ESVQIjVS0yVQ52DdKWZpBLw-Q7bek2HjcncDn.BmS9npNk7rPJbSSNAoxUH8wlDlAZ71.1sHDZA.yNzbSMhNzHq6&size=__size__&ck=b6ac35f377aeb7d8e67b3013e2c4d297&h=a-u&gs=2&t=42.1.0.0",
+                                        "badge_type": 37
+                                    },
+                                    {
+                                        "$gpb": "badoo.bma.ApplicationFeaturePicture",
+                                        "display_images": "//us1.bumbcdn.com/p561/hidden?euri=K2uy0Gvo6GmZFC.6he45buwYmyF8ywf-guHhR3vFLnsB6etZBOBDbbh48SKNUJJTN-ciXlQFvvMRh4yUl0V3dE0S8M1gcdBHBbYGWon1du4g0qYq4Tp2D-4p9FwbskTq3cpg1d4gUg2rfOpuZT0DjqecfeowjFGL&size=__size__&ck=a6721c467747ea4c09b290bd8e059f66&h=exn&gs=2&t=42.1.0.0",
+                                        "badge_type": 37
+                                    },
+                                    {
+                                        "$gpb": "badoo.bma.ApplicationFeaturePicture",
+                                        "display_images": "//us1.bumbcdn.com/p533/hidden?euri=327wfQUbYn7kOzA6pPT-UH5hwiJavvjgbNa5Ay0l2SWelnKqLk2ZY9iXjnD-meckvT6492Zv7RVPq5XLt7vV4.2FL5AsCD9CZ9BBRAJDpK3xl0ccBPtpVUNUTH9.tGnsZcpw7tyCUtpme9GxM.xINjWv67QJURdd&size=__size__&ck=b1e64a8c294461a248a0b5077f059e15&h=4fy&gs=2&t=42.1.0.0",
+                                        "badge_type": 37
+                                    }
+                                ],
+                                "promo_block_type": 228,
+                                "promo_block_position": 1,
+                                "buttons": [
+                                    {
+                                        "$gpb": "badoo.bma.CallToAction",
+                                        "action": 63,
+                                        "redirect_page": {
+                                            "$gpb": "badoo.bma.RedirectPage",
+                                            "redirect_page": 3
+                                        },
+                                        "type": 15
+                                    }
+                                ],
+                                "timer": 2
+                            }
+                        ]
+                    },
+                    {
+                        "$gpb": "badoo.bma.ListSection",
+                        "section_id": "2",
+                        "name": "Conversations",
+                        "total_count": 0,
+                        "last_block": true,
+                        "allowed_actions": [
+                            1
+                        ]
+                    }
+                ],
+                "total_sections": 2,
+                "total_count": 0,
+                "promo_banners": [
+                    {
+                        "$gpb": "badoo.bma.PromoBlock",
+                        "mssg": "Step 1: You swipe right\nStep 2: They swipe right, too\nStep 3: It’s a match!",
+                        "action": "",
+                        "header": "",
+                        "other_text": "",
+                        "pictures": [
+                            {
+                                "$gpb": "badoo.bma.ApplicationFeaturePicture",
+                                "display_images": "//us1.bumbcdn.com/i/big/assets/bumble_empty_folder/normal/web/standard/sz___size__/no_chats.png"
+                            }
+                        ],
+                        "promo_block_type": 354,
+                        "promo_block_position": 1,
+                        "credits_cost": "",
+                        "unique_id": "544ee67c5255561a04bb123071a8f7db",
+                        "buttons": [
+                            {
+                                "$gpb": "badoo.bma.CallToAction",
+                                "text": "Keep swiping",
+                                "action": 63,
+                                "redirect_page": {
+                                    "$gpb": "badoo.bma.RedirectPage",
+                                    "redirect_page": 1
+                                },
+                                "type": 1
+                            }
+                        ],
+                        "context": 26,
+                        "stats_variation_id": 1
+                    },
+                    {
+                        "$gpb": "badoo.bma.PromoBlock",
+                        "mssg": "These people liked you!",
+                        "action": "",
+                        "header": "",
+                        "other_text": "",
+                        "pictures": [
+                            {
+                                "$gpb": "badoo.bma.ApplicationFeaturePicture",
+                                "display_images": "",
+                                "badge_type": 2,
+                                "badge_text": "3"
+                            },
+                            {
+                                "$gpb": "badoo.bma.ApplicationFeaturePicture",
+                                "display_images": "//us1.bumbcdn.com/p536/hidden?euri=dkB9pYNsoavpmsjVSX7v5wBgbkiYxnewWTP0eyk1dZ96gsE3pJ5qhVlHnefAFsbKCbHpl2T9ESVQIjVS0yVQ52DdKWZpBLw-Q7bek2HjcncDn.BmS9npNk7rPJbSSNAoxUH8wlDlAZ71.1sHDZA.yNzbSMhNzHq6&size=__size__&ck=b6ac35f377aeb7d8e67b3013e2c4d297&h=a-u&gs=2&t=42.1.0.0",
+                                "badge_type": 37
+                            },
+                            {
+                                "$gpb": "badoo.bma.ApplicationFeaturePicture",
+                                "display_images": "//us1.bumbcdn.com/p561/hidden?euri=K2uy0Gvo6GmZFC.6he45buwYmyF8ywf-guHhR3vFLnsB6etZBOBDbbh48SKNUJJTN-ciXlQFvvMRh4yUl0V3dE0S8M1gcdBHBbYGWon1du4g0qYq4Tp2D-4p9FwbskTq3cpg1d4gUg2rfOpuZT0DjqecfeowjFGL&size=__size__&ck=a6721c467747ea4c09b290bd8e059f66&h=exn&gs=2&t=42.1.0.0",
+                                "badge_type": 37
+                            },
+                            {
+                                "$gpb": "badoo.bma.ApplicationFeaturePicture",
+                                "display_images": "//us1.bumbcdn.com/p533/hidden?euri=327wfQUbYn7kOzA6pPT-UH5hwiJavvjgbNa5Ay0l2SWelnKqLk2ZY9iXjnD-meckvT6492Zv7RVPq5XLt7vV4.2FL5AsCD9CZ9BBRAJDpK3xl0ccBPtpVUNUTH9.tGnsZcpw7tyCUtpme9GxM.xINjWv67QJURdd&size=__size__&ck=b1e64a8c294461a248a0b5077f059e15&h=4fy&gs=2&t=42.1.0.0",
+                                "badge_type": 37
+                            }
+                        ],
+                        "promo_block_type": 355,
+                        "promo_block_position": 4,
+                        "credits_cost": "",
+                        "unique_id": "5342577fcf2fad60f65c3de7b8eb7519",
+                        "buttons": [
+                            {
+                                "$gpb": "badoo.bma.CallToAction",
+                                "text": "Check them out and get matching",
+                                "action": 63,
+                                "redirect_page": {
+                                    "$gpb": "badoo.bma.RedirectPage",
+                                    "redirect_page": 173
+                                },
+                                "type": 1
+                            }
+                        ],
+                        "context": 26
+                    }
+                ],
+                "delay_sec": 10
+            },
+            "message_type": 246
+        }
+    ],
+    "responses_count": 1,
+    "is_background": false,
+    "vhost": ""
+}

@@ -1,0 +1,155 @@
+
+<!DOCTYPE HTML>
+    <html>
+    <style data-el-id="custom-fonts">
+	<style>
+    @font-face {
+        font-family: HelveticaforTargetBold Bold;
+        src: url('https://assets.zyrosite.com/Awvj02qMEDtplgnb/HelveticaforTargetBold Bold.woff2') format('woff2');
+        font-display: swap;
+        }
+    body {
+        font-family: HelveticaforTarget-Bold, sans-serif;
+        font-size: 1.2rem;
+        line-height: 1.6;
+        }
+    header {
+        background-color:#F7F6EE;
+    }
+    body {
+        background-color: #F7F6EE
+    }
+    body {
+        text-align: left;
+    }
+    img {
+        align-content: right;
+        display: inline-block;
+        width: 100%;
+    }
+    h4 {
+        color: orangered
+    }
+    .container {
+        display: flex;
+        align-items: center;
+    }
+    .BLP {
+        float: right; 
+        margin-left: 20px;
+    }
+    .sticky-header {
+        background-color: #F7F6EE;
+        color: black;
+        padding: 10px;
+    }
+    .sticky-header nav h5 {
+        list-style: none;
+        padding: 10px;
+        text-align: right;
+    }
+    .sticky-header nav h5 {
+        display: right;
+        margin-right: 30px;
+    }
+    .sticky-header nav h5 { 
+        margin-right: 0;
+    }
+    .sticky-header h5 {
+        text-decoration: none;
+        color: orangered;
+        font-size: 16px;
+        display:flexbox
+        flexbox:inline-flex;
+        text-align: right;
+
+    }
+    .sticky-header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+    h2 {
+        color: black;
+        margin: 15px
+    }
+    table {
+        padding-top: 20px;
+    }
+    p {
+        margin-top: 10px;
+    }
+    h3 {
+        color: gold;
+        font-size: 36px
+    }
+    .BCOA {
+        float: left;
+        margin: 0px;
+        align-content: left;
+        display: inline-block;
+        width: 20%;
+
+    }
+    .SB {
+        background-color:white;
+        padding: 30px
+    }
+    .ASB {
+        background-color: midnightblue;
+        color:#F7F6EE;
+        padding: 30px
+    }
+    .footer {
+        color: black;
+        text-align: center;
+        display: block;
+        flex-direction:row-reverse;
+        padding: 15px;
+        padding-right: 15px;
+    }
+    h5 {
+        margin: 10px;
+        text-align: right;
+        color: orangered;
+    }
+    h4 {
+        color: orangered;
+        margin: 15px;
+    }
+    h6 {
+        color:black;
+        margin: 15px;
+
+    }
+    .Q {
+        background-color: seagreen;
+        color: whitesmoke;
+        padding: 5px;
+        padding-left: 15px;
+        padding-bottom: 15px
+    }
+    .main {
+        padding: 30px;
+        background-color: black;
+        color:whitesmoke;
+        text-decoration-color: black;
+    }
+    .BLA {
+        padding-left: 15px;
+        height: 25%
+    }
+    .BOX {
+        color: black;
+        padding: 3px;
+    }
+    .W {
+        color: white;
+        font-size: 36px;
+    }
+    .BDC {
+        font-size: 64px;
+    }
+    </style>
+    </html>
