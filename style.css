@@ -1,37 +1,93 @@
-/*
- * CSS File for the solution
- * Midterm Exam
- * You got this!
- */
 
-/*
- * COLOUR PALETTE
- *
- * YOU DO NOT NEED TO USE THESE COLOURS, BUT YOU CAN IF YOU WANT TO
- *   #ede0d4
- *   #e6ccb2
- *   #ddb892
- *   #b08968
- *   #7f5539
- *   #9c6644
- *
- * https://coolors.co/palette/ede0d4-e6ccb2-ddb892-b08968-7f5539-9c6644
- */
-
-/*
- * The width of my Product Card in the screenshot was 400px
- * You can use that width or set your own width
- */
-
-/*
- * HINT: For making image fill the container use object-fit:cover property:
- *  https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
- */
-
-html {
-  font-size: 1.0rem;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
+<!DOCTYPE HTML>
+    <html>
+    <style data-el-id="custom-fonts">
+	<style>
+    @font-face {
+        font-family: HelveticaforTargetBold Bold;
+        src: url('https://assets.zyrosite.com/Awvj02qMEDtplgnb/HelveticaforTargetBold Bold.woff2') format('woff2');
+        font-display: swap;
+        }
+    body {
+        font-family: HelveticaforTarget-Bold, sans-serif;
+        font-size: 1.2rem;
+        line-height: 1.6;
+    }
+    img {
+        border-radius: 2rem;
+        padding: 1rem;
+    }
+    .card {
+        display: inline-flexbox;
+        align-items: center;
+        align-text: right;
+        margin: 6rem;
+        background-color: #F7F6EE;
+        padding: 2rem;
+        border-radius: 4rem;
+        box-shadow: 0px 0px 30px 10px rgb(139, 70, 24);
+    }
+    .button {
+        background-color: rgb(78, 41, 6);
+        color:#F7F6EE;
+        text-align: center;
+        align-items:end;
+        border-radius: 2rem;
+        margin-top: 10px;
+        padding: 1rem;
+    }
+    .logo {
+        display: flex;
+        width: 75px;
+        position:sticky;
+        right: 0px;
+        bottom: 0px;
+    }
+    h1 {
+        font-size: 2.5rem;
+        color:rgb(110, 47, 2)
+        text-align:inline-flex;
+        margin-bottom: 1rem;
+        margin: 10px;
+    }
+    h4 {
+        color:rgb(67, 51, 22)
+                text-align:inline-flex;
+        margin-bottom: 1rem;
+        margin: 10px;
+    }
+    header {
+        background-color:#af6108;
+        display: inline-block;
+        align-items: center;  
+    }
+    body {
+        background-color: #af6108;
+    }
+    img {
+        align-content:center;
+        display: inline-block;
+        width: 100%;
+    }
+    h2 {
+        color: rgb(128, 68, 23);
+        font-size: 2.5rem;
+        text-align: left;
+        margin-top: 5px;
+        margin-left: 10px
+    }
+    p {
+        font-size: 20px;
+        margin: 10px;
+        justify-content: center;
+        text-align: left;
+        align-content: end;
+    }
+    h3 {
+        color: #f7f6ee;
+        font-size: 10px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    </style>
+    </html>
